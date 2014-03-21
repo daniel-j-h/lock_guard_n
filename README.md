@@ -3,6 +3,13 @@ lock\_guard\_n
 
 Generalized std::lock\_guard for Lockables exploiting std::locks's deadlock avoidance algorithm.
 
+This repository contains two solutions:
+
+ * The original envisioned C++11 solution implementing tuple explosion internally.
+ * Howard Hinnant's elegant and feature rich C++14 solution using the new integer\_sequence utility.
+
+Note: for the C++14 solution to work you have to compile it with: clang++ -std=c++1y -stdlib=libc++
+
 
 ## Motivation
 

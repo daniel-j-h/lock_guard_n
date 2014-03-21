@@ -1,5 +1,5 @@
-#ifndef LOCK_GUARD_N_H
-#define LOCK_GUARD_N_H
+#ifndef LOCK_GUARD_N_CPP11_H
+#define LOCK_GUARD_N_CPP11_H
 
 #include <mutex>
 #include <tuple>
